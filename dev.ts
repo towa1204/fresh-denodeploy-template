@@ -4,7 +4,7 @@ import dev from "$fresh/dev.ts";
 import config from "./fresh.config.ts";
 
 import "$std/dotenv/load.ts";
-import { applyCron } from "./cron.ts";
+import { cron } from "./cron.ts";
 
-applyCron();
+// cron();
 await dev(import.meta.url, "./main.ts", config);
