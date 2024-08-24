@@ -48,6 +48,6 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           # Deno Deployのプロジェクト名を指定
-          project: "lsadsfj-fresh-tutor-10"
+          project: "lsadsfj-fresh-temp-85"
           entrypoint: "main.ts"
           root: "."
